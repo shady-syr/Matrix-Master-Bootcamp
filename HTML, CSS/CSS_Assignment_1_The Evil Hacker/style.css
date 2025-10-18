@@ -1,0 +1,66 @@
+/*CSS reset, don't mind it for now. */
+* {
+    margin: 5px;
+    padding: 5px;
+}
+
+#container {
+    width: 950px;
+    background-color: silver;
+    padding: 1px;
+
+}
+
+#header {
+    height: 150px;
+    background-color: blue;
+    display: block;
+    width: 97%;
+    margin: auto;
+    margin-top: 10px;
+}
+
+#main_nav_bar {
+    display: flex;
+}
+
+#nav_bar {
+    height: 300px;
+    width: 180px;
+    background-color: red;
+    display: flex;
+    width: 20%;
+    display: flex;
+}
+
+#main_content {
+    height: 360px;
+    width: 725px;
+    background-color: yellow;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    margin: 0;
+    flex-wrap: wrap;
+}
+
+.subcontent {
+    height: 200px;
+    width: 200px;
+    background-color: purple;
+    align-items: center;
+    margin-right: 10px;
+    flex-grow: 1;
+}
+
+#advertisements {
+    height: 110px;
+    width: 670px;
+    margin-top: 10px;
+    background-color: pink;
+    display: flex;
+    flex-basis: 100%;
+}

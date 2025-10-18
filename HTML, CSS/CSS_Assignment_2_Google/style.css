@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    height: 170px;
+    text-align: center;
+}
+
+header img {
+    width: 500px;
+}
+
+.container {
+    background-color: #eeeeee;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 5px 0;
+    height: 100px;
+}
+
+.search-box {
+    width: 23%;
+    height: 23px;
+    border-color: rgb(194, 199, 246);
+}
+
+.google-search-button {
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.feeling-lucky-button {
+    margin-right: 5px;
+    width: 150px;
+    height: 25px;
+    border-radius: 3px;
+}
+
+.main-links {
+    display: flex;
+    width: 100%;
+    border: 3px solid white;
+}
+
+.left-links {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: #7ee5da;
+    border: 1px solid white;
+    text-align: center;
+    justify-content: center;
+}
+
+.middle-links {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    background-color: #70ccc2;
+    border: 1px solid white;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+}
+
+.right-links {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 2;
+    background-color: #62b3aa;
+    border: 1px solid white;
+    text-align: center;
+    font-weight: 400;
+    justify-content: center;
+}
+
+.email {
+    width: 30%;
+    margin-left: 35%;
+    display: block;
+}
+
+.subscribe {
+    width: 100px;
+}
+
+footer {
+    text-align: center;
+    margin: 10px;
+}

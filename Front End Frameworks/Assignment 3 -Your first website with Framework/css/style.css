@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ECEFF9;
+}
+
+#about {
+    padding-top: 100px;
+}
+
+.main-header {
+    justify-items: center;
+    font-weight: 700;
+}
+
+.navbar {
+    background-color: #ECEFF9 !important;
+}
+
+.about-img {
+    max-width: 200px;
+    border-radius: 50%;
+}
+
+.about-me {
+    margin-top: 1%;
+    text-align: left;
+    padding-left: 10px;
+}
+
+.card-body img {
+    border-radius: 50%;
+    width: 80px;
+    margin: 20px 0px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card-body {
+    justify-items: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+}
+
+#education {
+    margin: 30px;
+}
+
+.card-body {
+    height: 200px;
+    justify-content: center;
+    align-content: center;
+}
+
+#languages h2 {
+    margin: 20px 0px;
+}
+
+.language-section {
+    color: black;
+    width: 100%;
+}
+
+.language {
+    padding-bottom: 25px;
+}
+
+.bar {
+    display: flex;
+    gap: 5px;
+    margin: 5px 0;
+}
+
+.box {
+    width: 30px;
+    height: 10px;
+}
+
+.filled {
+    background-color: #201e1e;
+}
+
+.empty {
+    background-color: #a9a4a4;
+}
+
+.level {
+    float: right;
+}
+
+#certificate img {
+    border-radius: 50%;
+    width: 50px;
+    margin-right: 20px;
+}
+
+.contact-me {
+    width: 100%;
+}
+
+.contact-me tr input {
+    margin: 10px 0px;
+}
